@@ -34,9 +34,14 @@
 	</build>
 	<repositories>
 		<repository>
-			<id>nexisonline-repo</id>
-			<name>NexisONLINE Public Snapshots</name>
-			<url>http://ci.nexisonline.net:8080/nexus/content/repositories/public/</url>
+			<id>bukkit-repo</id>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+			<releases>
+				<enabled>true</enabled>
+			</releases>
+			<url>http://artifacts.lukegb.com/artifactory/repo/</url>
 		</repository>
 	</repositories>
 	<dependencies>
@@ -44,7 +49,7 @@
 			<groupId>org.bukkit</groupId>
 			<artifactId>bukkit</artifactId>
 			<version>0.0.1-SNAPSHOT</version>
-			<type>pom</type>
+			<scope>compile</scope>
 		</dependency>
 	</dependencies>
 	<properties>
