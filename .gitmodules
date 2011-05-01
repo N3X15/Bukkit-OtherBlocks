@@ -1,3 +1,3 @@
 [submodule "lib/common"]
 	path = lib/common
-	url = git@github.com:cyklo/Bukkit-Common.git
+	url = https://github.com/cyklo/Bukkit-Common.git
